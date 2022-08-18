@@ -26,4 +26,6 @@ input {
     border: none;
     border-radius: 25px;
     box-shadow: 0 4px rgba(0, 0, 0, .2);
+    font-family: inherit;
     
+}
