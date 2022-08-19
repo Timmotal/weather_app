@@ -39,5 +39,6 @@ input {
 }
 
 .weather h2 {
-  
+    margin-bottom: 0;
+ 
 }
