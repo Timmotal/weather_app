@@ -13,5 +13,5 @@ async function getWeatherByLocation(city) {
     
     console.log(respData, KtoC(respData.main.temp));
 
-    
+    addWeatherToPage(respData);
 } 
