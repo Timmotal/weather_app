@@ -11,7 +11,7 @@ async function getWeatherByLocation(city) {
         origin: "cors" });
     const respData = await resp.json();
     
-    
+    console.log(respData, KtoC(respData.main.temp));
 
     
 } 
