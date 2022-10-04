@@ -15,3 +15,16 @@ async function getWeatherByLocation(city) {
 
     addWeatherToPage(respData);
 } 
+
+function addWeatherToPage(data) {
+    
+
+    
+   
+
+    
+
+  
+
+    
+} 
