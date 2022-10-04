@@ -20,7 +20,7 @@ function addWeatherToPage(data) {
     const temp = KtoC(data.main.temp);
 
     const weather = document.createElement('div');
-   
+    weather.classList.add('weather');
 
     
 
