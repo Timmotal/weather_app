@@ -30,7 +30,8 @@ function addWeatherToPage(data) {
     
     `;
 
-  
+    // cleanup
+    main.innerHTML = '';
 
     
 } 
