@@ -33,5 +33,5 @@ function addWeatherToPage(data) {
     // cleanup
     main.innerHTML = '';
 
-    
+    main.appendChild(weather);
 } 
