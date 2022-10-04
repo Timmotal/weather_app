@@ -17,7 +17,7 @@ async function getWeatherByLocation(city) {
 } 
 
 function addWeatherToPage(data) {
-    
+    const temp = KtoC(data.main.temp);
 
     
    
