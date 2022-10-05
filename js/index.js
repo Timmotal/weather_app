@@ -40,4 +40,10 @@ function KtoC(K) {
     return Math.floor(K - 273.15);
 }
 
-) 
+form.addEventListener('submit', (e) => {
+   
+
+    
+
+    
+}) 
