@@ -35,3 +35,9 @@ function addWeatherToPage(data) {
 
     main.appendChild(weather);
 } 
+
+function KtoC(K) {
+    
+}
+
+) 
