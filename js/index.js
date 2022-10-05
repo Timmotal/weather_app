@@ -41,7 +41,7 @@ function KtoC(K) {
 }
 
 form.addEventListener('submit', (e) => {
-   
+    e.preventDefault();
 
     
 
