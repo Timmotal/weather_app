@@ -45,5 +45,7 @@ form.addEventListener('submit', (e) => {
 
     const city = search.value;
 
-    
+    if(city) {
+        
+    }
 }) 
