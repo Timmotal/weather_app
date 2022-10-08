@@ -26,7 +26,7 @@ function addWeatherToPage(data) {
     <small>The Temperature is</small>
     <h2><img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png"/>${temp} &#x2103;</h2>
     <p>in ${search.value}</p>
-    <small>${data.weather[0].main}</small>
+    <small>seems it's a ${data.weather[0].main}</small>
     
     `;
 
