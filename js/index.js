@@ -16,9 +16,6 @@ async function getWeatherByLocation(city) {
     addWeatherToPage(respData);
 }
 
-// getWeatherByLocation("Palestine");
-// console.log("okay bissh");
-
 function addWeatherToPage(data) {
     const temp = KtoC(data.main.temp);
 
