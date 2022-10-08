@@ -14,7 +14,10 @@ async function getWeatherByLocation(city) {
     console.log(respData, KtoC(respData.main.temp));
 
     addWeatherToPage(respData);
-} 
+}
+
+// getWeatherByLocation("Palestine");
+// console.log("okay bissh");
 
 function addWeatherToPage(data) {
     const temp = KtoC(data.main.temp);
@@ -34,7 +37,7 @@ function addWeatherToPage(data) {
     main.innerHTML = '';
 
     main.appendChild(weather);
-} 
+}
 
 function KtoC(K) {
     return Math.floor(K - 273.15);
@@ -48,4 +51,4 @@ form.addEventListener('submit', (e) => {
     if(city) {
         getWeatherByLocation(city);
     }
-}) 
+})
